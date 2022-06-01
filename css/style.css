@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: grey url(../img/bg.png);
+    margin: 1.5rem
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#container {
+    background: #ede9cc url(../img/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 72rem;
+    max-width: 118rem;
+}
+
+/* topo */
+#topo {
+    position: relative;
+    background: #dbcd87;
+    min-height: 25rem;
+    height: 15.4rem;
+}
+
+/* logo */
+#area_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25rem;
+    background: url(../img/topo-imagem-principal.png) no-repeat;
+    z-index: 1
+}
+
+#logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    text-decoration: none;
+    background: url(../img/logo.png) no-repeat;
+    width: 15.1rem;
+    height: 6.6rem;
+    text-indent: -9000rem;
+}
+
+/* navegacao locais */
+#area_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45rem;
+    height: 25rem;
+    background: url(../img/topo-imagem-lateral.png) no-repeat;
+    z-index: 2;
+}
+
+#conteudo_nav {
+    margin-left: 8.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+#caixa_locais {
+    border-top: 0.1rem solid #b5ab56;
+    border-bottom: 0.1rem solid #b5ab56;
+    padding: 0.5rem 0;
+}
+
+.links_locais_nav {
+    padding: 0 0.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.links_locais_nav:hover {
+    background: #fdf6be;
+}
+
+#bt_reservar {
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+#bt_reservar:hover {
+    color: black;
+}
+
+/* navegacao site */
+
+#navbar {
+    margin-top: 1.5rem;
+}
+
+#lista_navbar {
+    float: left;
+}
+
+#lista_navbar li {
+    padding: 0.8rem 0;
+}
+
+.nav {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: #6e672c;
+}
+
+.nav:hover {
+    background: #fdf6be;
+}
+
+#img_navbar {
+    width: 22.6rem;
+    height: 16.4rem;
+    float: right;
+}
+
+/* conteudo site */
+#area_principal {
+    float: left;
+    width: 50%;
+    background: url(../img/bg-area-principal.png) top left repeat-x;
+    padding: 1.5rem 0;
+}
+
+#coluna_lateral {
+    float: right;
+    width: 50%;
+    background: url(../img/bg-area-lateral.png) top left repeat-x;
+    padding: 2rem 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* conteudo principal */
+#titulo_conteudo_principal {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    color: #7d7640;
+}
+
+.texto_conteudo_principal {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* conteudo lateral */
+.li_conteudo_lateral {
+    padding: 0.8rem;
+    border-bottom: 0.1rem solid #f3efcb;
+    height: 10rem;
+}
+
+.img_conteudo_lateral {
+    float: left;
+    margin-right: 0.8rem;
+}
+
+.titulo_conteudo_lateral,
+.conteudo_lateral {
+    font-size: 1.5rem;
+}
+
+.titulo_conteudo_lateral {
+    padding: 0.5rem 0;
+    color: #615b2d;
+    font-weight: bold;
+    background: url(../img/ornamento.png) no-repeat center right;
+}
+
+.conteudo_lateral {
+    color: black;
+}
+
+.li_conteudo_lateral:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+/* rodape */
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    background: white url(../img/bg-rodape.png) repeat-x top;
+    font-size: 1.7rem;
+    color: #7d7640;
+}
